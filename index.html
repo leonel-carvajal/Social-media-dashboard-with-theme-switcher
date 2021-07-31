@@ -17,134 +17,150 @@
     <h1 class="header__title">Social Media Dashboard</h1>
     <p class="header__info"> Total Followers: 23,004</p>
   </div>
-  <div class="darkMode">
-    <p class="darkinfo">Dark Mode</p>
-    <div class="darkSwitch"></div>
+  <div class="dark__mode">
+    <p class="dark__info">Dark Mode</p>
+    <div class="dark__switch"></div>
   </div>
 </header>
 <main class="main">
-  <div class="cards-top">
-    <div class="card">
-      <img src="images/icon-facebook.svg" alt="icon-facebook" class="card--icon">
+  <div class="cards__top">
+    <div class="card border--fb">
+      <img src="images/icon-facebook.svg" alt="icon-facebook" class="card__icon">
       <span class="card__user">@nathanf</span>
-      <p class="card--info">1987</p>
-      <p class="card--followers">Followers</p>
+      <p class="card__info">1987</p>
+      <p class="card__followers">Followers</p>
       <img src="images/icon-up.svg" alt="icon-up" class="icon">
-      <span class="card--days">12 Today</span>
+      <span class="card--days text--green">12 Today</span>
     </div>
-    <div class="card">
-      <img src="images/icon-twitter.svg" alt="icon-twitter" class="card--icon">
+    <div class="card border--twitter">
+      <img src="images/icon-twitter.svg" alt="icon-twitter" class="card__icon">
       <span class="card__user">@nathanf</span>
-      <p class="card--info">1044</p>
-      <p class="card--followers">Followers</p>
+      <p class="card__info">1044</p>
+      <p class="card__followers">Followers</p>
       <img src="images/icon-up.svg" alt="icon-up" class="icon">
-      <span class="card--days">99 Today</span>
+      <span class="card--days text--green">99 Today</span>
     </div>
-    <div class="card">
-      <img src="images/icon-instagram.svg" alt="icon-instagram" class="card--icon">
+    <div class="card border--instagram">
+      <img src="images/icon-instagram.svg" alt="icon-instagram" class="card__icon">
       <span class="card__user">@realnathanf</span>
-      <p class="card--info">11k</p>
-      <p class="card--followers">Followers</p>
+      <p class="card__info">11k</p>
+      <p class="card__followers">Followers</p>
       <img src="images/icon-up.svg" alt="icon-up" class="icon">
-      <span class="card--days">1099 Today</span>
+      <span class="card--days text--green">1099 Today</span>
     </div>
-    <div class="card">
-      <img src="images/icon-youtube.svg" alt="icon-youtube" class="card--icon">
+    <div class="card border--youtube">
+      <img src="images/icon-youtube.svg" alt="icon-youtube" class="card__icon">
       <span class="card__user">Nathan F.</span>
-      <p class="card--info">8239</p>
-      <p class="card--followers">Subscribers</p>
-      <img src="images/icon-up.svg" alt="icon-up" class="icon">
-      <span class="card--days">144 Today</span>
+      <p class="card__info">8239</p>
+      <p class="card__followers">Subscribers</p>
+      <img src="images/icon-down.svg" alt="icon-down" class="icon">
+      <span class="card--days text--red">144 Today</span>
     </div>
   </div>
   <h2 class="overview">Overview - Today</h2>
-  <div class="card--main">
-    <div class="card--social">
-      <header class="card--top">
-      <p>Page Views</p>
+  <div class="card__main">
+    <div class="card__social">
+      <header class="card__top">
+      <p class="card__view">Page Views</p>
       <img src="images/icon-facebook.svg" alt="icon-facebook">
       </header>
-      <div class="card--body">
+      <div class="card__body">
         <p class="card__number">87</p>
-        <img src="images/icon-up.svg" alt="icon-up" class="card__icon">
-        <span class="card__percentage">3%</span>
+        <div class="card__data">
+          <img src="images/icon-up.svg" alt="icon-up" class="card__icon--data">
+          <span class="card__percentage text--green">3%</span>
+        </div>
       </div>
     </div>
-    <div class="card--social">
-      <header class="card--top">
-      <p>Likes</p>
+    <div class="card__social">
+      <header class="card__top">
+      <p class="card__view">Likes</p>
       <img src="images/icon-facebook.svg" alt="icon-facebook" class="social__icon">
       </header>
-      <div class="card--body">
+      <div class="card__body">
         <p class="card__number">52</p>
-        <img src="images/icon-down.svg" alt="icon-down" class="card__icon">
-        <span class="card__percentage">2%</span>
+        <div class="card__data">
+          <img src="images/icon-down.svg" alt="icon-down" class="card__icon--data">
+          <span class="card__percentage text--red">2%</span>
+        </div>
       </div>
     </div>
-    <div class="card--social">
-      <header class="card--top">
-      <p>Likes</p>
+    <div class="card__social">
+      <header class="card__top">
+      <p class="card__view">Likes</p>
       <img src="images/icon-instagram.svg" alt="icon-instagram" class="social__icon">
       </header>
-      <div class="card--body">
+      <div class="card__body">
         <p class="card__number">5462</p>
-        <img src="images/icon-up.svg" alt="icon-up" class="card__icon">
-        <span class="card__percentage">2257%</span>
+        <div class="card__data">
+          <img src="images/icon-up.svg" alt="icon-up" class="card__icon--data">
+          <span class="card__percentage text--green">2257%</span>
+        </div>
       </div>
     </div>
-    <div class="card--social">
-      <header class="card--top">
-      <p>Profile Views</p>
+    <div class="card__social">
+      <header class="card__top">
+      <p class="card__view">Profile Views</p>
       <img src="images/icon-instagram.svg" alt="icon-instagram" class="social__icon">
       </header>
-      <div class="card--body">
+      <div class="card__body">
         <p class="card__number">52k</p>
-        <img src="images/icon-up.svg" alt="icon-up" class="card__icon">
-        <span class="card__percentage">1375%</span>
+        <div class="card__data">
+          <img src="images/icon-up.svg" alt="icon-up" class="card__icon--data">
+          <span class="card__percentage text--green">1375%</span>
+        </div>
       </div>
     </div>
-    <div class="card--social">
-      <header class="card--top">
-      <p>Retweets</p>
+    <div class="card__social">
+      <header class="card__top">
+      <p class="card__view">Retweets</p>
       <img src="images/icon-twitter.svg" alt="icon-twitter" class="social__icon"> 
       </header>
-      <div class="card--body">
+      <div class="card__body">
         <p class="card__number">117</p>
-        <img src="images/icon-up.svg" alt="icon-up" class="card__icon">
-        <span class="card__percentage">303%</span>
+        <div class="card__data">
+          <img src="images/icon-up.svg" alt="icon-up" class="card__icon--data">
+          <span class="card__percentage text--green">303%</span>
+        </div>
       </div>
     </div>
-    <div class="card--social">
-      <header class="card--top">
-      <p>Likes</p>
+    <div class="card__social">
+      <header class="card__top">
+      <p class="card__view">Likes</p>
       <img src="images/icon-twitter.svg" alt="icon-twitter" class="social__icon">
       </header>
-      <div class="card--body">
+      <div class="card__body">
         <p class="card__number">507</p>
-        <img src="images/icon-up.svg" alt="icon-up" class="card__icon">
-        <span class="card__percentage">553%</span>
+        <div class="card__data">
+          <img src="images/icon-up.svg" alt="icon-up" class="card__icon--data">
+          <span class="card__percentage text--green">553%</span>
+        </div>
       </div>
     </div>
-    <div class="card--social">
-      <header class="card--top">
-      <p>Likes</p>
+    <div class="card__social">
+      <header class="card__top">
+      <p class="card__view">Likes</p>
       <img src="images/icon-youtube.svg" alt="icon-youtube" class="social__icon">
       </header>
-      <div class="card--body">
+      <div class="card__body">
         <p class="card__number">107</p>
-        <img src="images/icon-down.svg" alt="icon-down" class="card__icon">
-        <span class="card__percentage">19%</span>
+        <div class="card__data">
+          <img src="images/icon-down.svg" alt="icon-down" class="card__icon--data">
+          <span class="card__percentage text--red">19%</span>
+        </div>
       </div>
     </div>
-    <div class="card--social">
-      <header class="card--top">
-      <p>Total Views</p>
+    <div class="card__social">
+      <header class="card__top">
+      <p class="card__view">Total Views</p>
       <img src="images/icon-youtube.svg" alt="icon-youtube" class="social__icon">
       </header>
-      <div class="card--body">
+      <div class="card__body">
         <p class="card__number">1407</p>
-        <img src="images/icon-down.svg" alt="icon-down" class="card__icon">
-        <span class="card__percentage">12%</span>
+        <div class="card__data">
+          <img src="images/icon-down.svg" alt="icon-down" class="card__icon--data">
+          <span class="card__percentage text--red">12%</span>
+        </div>
       </div>
     </div>
   </div>
