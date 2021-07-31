@@ -29,6 +29,17 @@ body{
   font-family: 'Inter', sans-serif;
   background-color: var(--Bg-light);
 }
+@media screen and (min-width:1024px) {
+  body::-webkit-scrollbar{
+    background-color: var(--Ligth-bg-card);
+    width: 7px;
+    border-radius: 5px;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: var(--Toggle);
+    border-radius: 5px;
+  }
+}
 .main{
   margin-bottom: 5em;
 }
@@ -52,6 +63,20 @@ body{
   padding-bottom: 1em;
   border-bottom: 1px solid;
 }
+@media screen and (min-width:1024px) {
+  .header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .header__info{
+    border: 0;
+    font-size: 1rem;
+  }
+  .header__title{
+    font-size: 2rem;
+  }
+}
 .dark__mode{
   display: flex;
   align-items: center;
@@ -67,6 +92,12 @@ body{
   height: 25px;
   border-radius: 50px;
   background-color: var(--Toggle);
+}
+@media screen and (min-width:1024px) {
+  .dark__switch{
+    cursor: pointer;
+    margin-left: 10px;
+  }
 }
 .dark__switch::after{
   content: '';
@@ -85,6 +116,11 @@ body{
   margin-left: auto;
   margin-right: auto;
   transform: translateY(-70px);
+}
+@media screen and (min-width:1024px) {
+  .cards__top{
+    grid-template-columns: repeat(4,1fr);
+  }
 }
 .card{
   overflow: hidden;
@@ -148,6 +184,12 @@ body{
   margin-left: 20px;
   margin-top: 0;
 }
+@media screen and (min-width:1024px) {
+  .overview{
+    margin-left: 2.5em;
+    font-size: 1.8rem;
+  }
+}
 .card__main{
   display: grid;
   gap: 20px;
@@ -155,6 +197,11 @@ body{
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+}
+@media screen and (min-width:1024px) {
+  .card__main{
+    grid-template-columns: repeat(4,1fr);
+  }
 }
 .card__social{
   background-color: var(--Ligth-bg-card);
